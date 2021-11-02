@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar */
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+#logo {
+    display: inline-flex;
+    margin-right: 12px;
+}
+
+#academy {
+    font-weight: bolder;
+}
+
+.nav-links p {
+    display: inline-flex;
+    margin-right: 12px;
+}
+
+/* Banner Section */
+
+.banner-container {
+    display: inline-flex;
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+}
+
+.banner-text-container {
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+#imageContainer {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+#banner-image {
+    width: 100%;
+    height: auto;
+}
+
+#banner-text {
+    color: 
+}
+
+#banner-title {
+    padding: 24px 0;
+}
+
+#start-button {
+    width: 60%;
+    display: block;
+    margin: 12px auto;
+    padding: 8px 0 8px;
+    background-color: rgb(99, 99, 99);
+    Color: white;
+ }
+
+ @media screen and (max-width: 767px){
+     /* Banner Section for mobile */
+     .banner-container{
+         display: block;
+         height: auto;
+         width: 100%;
+     }
+
+
+ #imageCOntainer {
+     width: 100%;
+     height: auto;
+     margin: 0;
+     padding: 0;
+ }
+
+ #imageContainer img {
+     max-width: 100%;
+ }
+
+.banner-text-container {
+    width: 100%;
+    height: auto;
+    padding: 32px 16px;
+}
+ }
